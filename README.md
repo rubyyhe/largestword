@@ -23,10 +23,10 @@ Steps:
   
 (Refer to https://github.com/nvm-sh/nvm for more details.)  
 
-## Implematation
+## Implementation
 A few assumptions are made during implementation:
-* *Word* here is assumpted as any consecutive characters without whitespace. For example, each one of below is considered as a *word*: `apple`, `it's`,  `a-b-c`, `"hello"`
-* For illustration, the upper limit of file size is set as 50KB in implementation. You can use env variable MAX_FILE_SIZE_KB to tune the size, for example: 
+* *Word* here is supposed to be any consecutive characters without whitespace. For example, each one of below is considered as a *word*: `apple`, `it's`,  `a-b-c`, `"hello"`.
+* For illustration, the upper limit of file size is set as 50KB in implementation. You can use environment variable MAX_FILE_SIZE_KB to tune the size, for example: 
   ```
   export MAX_FILE_SIZE_KB=60
   ```
