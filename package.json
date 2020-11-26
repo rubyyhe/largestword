@@ -1,0 +1,17 @@
+{
+  "name": "largestword",
+  "version": "1.0.0",
+  "description": "Code chanllenge to find out largest word from a file and reverse the largest word",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ruby He",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "isbinaryfile": "^4.0.6"
+  }
+}
