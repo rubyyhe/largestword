@@ -4,7 +4,7 @@
   "description": "Code chanllenge to find out largest word from a file and reverse the largest word",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "author": "Ruby He",
   "license": "ISC",
