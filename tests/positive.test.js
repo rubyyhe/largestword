@@ -15,7 +15,6 @@ describe('Given valid input file', () => {
         expect(resultMap.get('watermelon')).toBe('nolemretaw'); 
     });
 
-
     it('With word each line and multiple largest words in it, should have multiple result ', () => {
         let resultMap = func.findAndTranspose(__dirname + "/files/p3_multipleLargest.txt");
         expect(resultMap.size).toBe(2);
@@ -45,7 +44,6 @@ describe('Given valid input file', () => {
     it('With single letter word, should have one result', () => {
         let resultMap = func.findAndTranspose(__dirname + "/files/p5_singleLetter.txt");
         expect(resultMap.size).toBe(1);
-        
         expect(resultMap.has('A')).toBe(true);
         expect(resultMap.get('A')).toBe('A'); 
 
@@ -56,7 +54,6 @@ describe('Given valid input file', () => {
         expect(resultMap.size).toBe(1);
         expect(resultMap.has('clouds[2][3]),')).toBe(true);
         expect(resultMap.get('clouds[2][3]),')).toBe(',)]3[]2[sduolc'); 
-
     });
 
 });

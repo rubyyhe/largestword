@@ -35,7 +35,7 @@ A few assumptions are made during implementation:
 ### Files
 * `index.js` is the main file to run.
 * `func.js` is the implementation moudle, function `findAndTranspose(filePath)` is exposed for invoke.
-* Test cases and test files are under tests folder. There are 12 cases in total for both positive and negative cases.
+* Test cases and test files are under tests folder. There are 13 cases in total for both positive and negative cases.
 
 
 ## Execution Steps

@@ -6,11 +6,13 @@ describe('Given negative scenario', () => {
         expect(() => {
             func.findAndTranspose('');
         }).toThrowError(/Invalid file path/);
+    });
 
+    it('With invalid path, should throw error', () => {
         expect(() => {
             func.findAndTranspose('1');
         }).toThrowError(/Invalid file path/);
-    });
+    });   
     
     it('With not existing file, should throw error', () => {
         expect(() => {
